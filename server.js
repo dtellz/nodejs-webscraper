@@ -15,11 +15,9 @@ try {
         },
         url: "https://www.kyero.com/es/santa-cruz-de-tenerife-propiedad-larga-duración-1l49704"
 
-
-
-
     })
     console.log(idealistaResponse)
+    console.log("SUCCESS: Request fullfilled")
 } catch (err) {
     console.log('ERROR: Failed to load website')
     console.log(err)
